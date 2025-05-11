@@ -13,6 +13,7 @@ body,html{
 #main{
   position: relative;
   overflow: hidden;
+  background-color: #1137ca;
 }
 @font-face {
   font-family: a;
@@ -164,6 +165,36 @@ If applied on a rectangle, it creates an oval. */
   position: relative;
   max-width: 100vw;
   max-height: 100vh;
+}
+
+#page4{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  /* ✅ flex-direction: column;
+This means stack the child elements vertically (from top to bottom).
+Think of it like putting items one below another.
+It changes the main axis from horizontal (default row) to vertical. */
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #1137ca;
+  font-family: a;
+}
+#page4 h3{
+  margin-left: 15vw;
+  margin-bottom: 2vw;
+  font-weight: 100;
+  color: #fff;
+}
+
+#page4 h1{
+  margin-left: 15vw;
+  width: 70%;
+  font-size: 3vw;
+  font-weight: 100;
+  color: #fff;
 }
 
 
